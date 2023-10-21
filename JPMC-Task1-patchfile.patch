@@ -112,7 +112,7 @@ index 3fc09b7..8754367 100644
              print("Quoted %s at (bid:%s, ask:%s, price:%s)" % (stock, bid_price, ask_price, price))
  
 -        print("Ratio %s" % getRatio(price, price))
-+        print("Ratio %s" % getRatio(price["ABC"], price["DEF"]))
++        print("Ratio %s" % getRatio(prices["ABC"], prices["DEF"]))
 \ No newline at end of file
 diff --git a/client_test.py b/client_test.py
 index af2bf26..3899ee2 100644
